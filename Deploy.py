@@ -242,7 +242,7 @@ if st.button('Confirm and Predict'):
     
     your_salary = model.predict(user_scaled)
     
-    st.text(f'Your Estimated Salary : {int(your_salary)} $.')
+    st.text(f'Your Estimated Salary : $ {int(your_salary)}')
     
     st.success('This is a success message!', icon = "✅")
         
