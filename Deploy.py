@@ -11,7 +11,7 @@ import warnings
 
 warnings.filterwarnings(action = 'ignore')
 
-st.title('Salary Prediciton')
+st.title('Salary Prediction')
 
 st.header('_'*50)
 
